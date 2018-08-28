@@ -1,0 +1,1 @@
+Primer clase de PHP para el curso Blend de Full Stack. El tema de la clase es Variables
