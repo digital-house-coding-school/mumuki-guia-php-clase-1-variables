@@ -1,3 +1,3 @@
 public function testDescriptionExample(): void {
-  $this->assertTrue(false);
+  $this->assertTrue(isset($sarasa));
 }
