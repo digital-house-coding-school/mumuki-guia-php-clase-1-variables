@@ -5,7 +5,5 @@ public function testDescriptionExample(): void {
   
   $sol = '/*...content...*/';
    
-
-  
   
 }
