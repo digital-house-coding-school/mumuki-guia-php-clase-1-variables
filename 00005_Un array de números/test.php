@@ -14,5 +14,5 @@ public function testDescriptionExample(): void {
   $agregado = strpos($sol, '$miArray[]');
   $condicionFinal = $definidoVacio !== false && $agregado !== false;
   
-  $this->assertTrue($condicionFinal, "Recorda que queremos que utilices la sintaxis de agregado. No dudes en ver la pista si no la recordas");
+  $this->assertTrue($condicionFinal, "Recorda que queremos que utilices la sintaxis de agregado. No dudes en ver la pista si no la recordas.");
 }
