@@ -6,5 +6,5 @@ public function testDescriptionExample(): void {
   $this->assertTrue(isset($miNumero), 'La variable $miNumero no esta definida');
   $this->assertTrue(isset($miDecimal), 'La variable $miDecimal no esta definida');
   $this->assertTrue(isset($miVerdad), 'La variable $miVerdad no esta definida');
-  $this->assertTrue(is_null($miNulo), 'La variable $miNulo no esta definida o no es nula');
+  $this->assertTrue($miNulo === null, 'La variable $miNulo no esta definida o no es nula');
 }
