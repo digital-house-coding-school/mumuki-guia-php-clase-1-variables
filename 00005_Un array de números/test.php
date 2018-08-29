@@ -9,4 +9,10 @@ public function testDescriptionExample(): void {
     $this->assertTrue(array_key_exists($i, $miArray), "No existe la posicion $i del array");
     $this->assertTrue(is_int($miArray[$i]), "En la posición $i del array no hay un número");
   }
+  
+  $definidoVacio = strpos($sol, '[]');
+  $agregado = strpos($sol, '$miArray[]');
+  $condicionFinal = $definidoVacio !== false && $agregado !== false;
+  
+  $this->assertTrue($condicionFinal, "Recorda que queremos que utilices la sintaxis de agregado. No dudes en ver la pista si no la recordas");
 }
