@@ -4,7 +4,7 @@ public function testDescriptionExample(): void {
   $this->assertTrue(isset($prueba), 'La variable $prueba no esta definida');
   
    
-  $solucion = ('/*...content...*/');
+
   
   
 }
