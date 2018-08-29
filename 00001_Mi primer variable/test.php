@@ -1,9 +1,8 @@
 public function testDescriptionExample(): void {
-  global $prueba;
   
+  /*...content...*/
   $this->assertTrue(isset($prueba), 'La variable $prueba no esta definida');
   
-  $sol = '/*...content...*/';
    
   
 }
