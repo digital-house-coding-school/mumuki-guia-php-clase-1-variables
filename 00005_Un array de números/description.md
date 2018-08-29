@@ -1,4 +1,4 @@
-Partiendo del array anterior, vamos a utilizar la sintaxis de agregado de elementos para agregarle 3 números.
+Partiendo del array anterior, vamos a utilizar la sintaxis de agregado de elementos para agregarle 3 números. La variable, una vez más, debe llamarse `$miArray`.
 
 Podes agregar cualquier número.
 
