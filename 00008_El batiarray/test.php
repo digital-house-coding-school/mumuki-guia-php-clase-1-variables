@@ -7,8 +7,7 @@ public function testDescriptionExample(): void {
   
   $this->assertTrue(isset($batman), 'La variable $batman no esta definida');
   $this->assertTrue(is_array($batman), 'La variable $batman no es un array');
-  $this->assertTrue(count($batman) == 5, 'El array no tiene 5 elementos...');
-  
+
   
   
   
