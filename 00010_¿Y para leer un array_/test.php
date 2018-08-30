@@ -14,5 +14,6 @@ public function testDescriptionExample(): void {
   $this->assertTrue(isset($equipo) && $equipo === "San Antonio Spurs", 'La variable $equipo parecería no existir o no tener el valor correcto');
   
   $numEmanuel = substr_count($sol, "Emanuel");
-  var_dump($numEmanuel);exit;
+  $numManu = substr_count($sol, "Manu");
+  var_dump($numManu);exit;
 }
