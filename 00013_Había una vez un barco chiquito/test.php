@@ -9,5 +9,5 @@ public function testDescriptionExample(): void {
   
   $trampa = $numResul > 1;
   
-  $this->assertFalse($trampa, "Lamentamos informar que algo parecería estar...raro en tu código. No deberías haber escrito texto de nuevo...");
+  $this->assertFalse($trampa, "Lamentamos informar que algo parecería estar...raro en tu código. No deberías haber escrito el texto de nuevo...");
 }
