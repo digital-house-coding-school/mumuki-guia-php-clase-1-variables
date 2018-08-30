@@ -3,7 +3,7 @@ public function testDescriptionExample(): void {
   $nombreCorrecto = isset($nombre) && $nombre == "Emanuel David";
 
   $this->assertTrue($nombreCorrecto, 'La variable $nombre parecería no existir o no tener el valor correcto');
-  
+  var_dump($apodo);exit;
   $apodoCorrecto = isset($apodo) && $apodo == "Manu";
   
   $this->assertTrue($apodoCorrecto, 'La variable $apodo parecería no existir o no tener el valor correcto');
