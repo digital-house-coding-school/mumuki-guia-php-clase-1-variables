@@ -2,7 +2,6 @@ public function testDescriptionExample(): void {
   /*...content...*/
   
   
-  
   $this->assertTrue(isset($batman), 'La variable $batman no esta definida');
   $this->assertTrue(is_array($batman), 'La variable $batman no es un array');
 
@@ -28,7 +27,7 @@ public function testDescriptionExample(): void {
   
   $this->assertTrue($pesoCorrecto, 'El peso de Batman pareceria no ser correcto o no estar en la tercera posición...');
   
-  $alturaCorrecta = is_double($altura) && $altura == 1.8;
+  $alturaCorrecta = is_double($altura);
   
   
   
