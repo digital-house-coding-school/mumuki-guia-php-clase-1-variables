@@ -15,5 +15,9 @@ public function testDescriptionExample(): void {
   
   $numEmanuel = substr_count($sol, "Emanuel");
   $numManu = substr_count($sol, "Manu");
-  var_dump($numManu);exit;
+  $numSpurs = substr_count($sol, "Spurs");
+  
+  $trampa = $numEmanuel > 1 || $numManu > 1 || $numSpurs > 1;
+  
+  $this->assertFalse($trampa, "Lamentamos informar que algo parecería estar...raro en tu código. Las palabras 'Emanuel', 'Manu' y 'Spurs' no deberían aparecer más de una vez en el código enviado...");
 }
