@@ -1,7 +1,7 @@
 public function testDescriptionExample(): void {
   /*...content...*/
-  echo $nombre; exit;
-  $this->assertTrue(isset($nombre) && $nombre == "Emanuel David", 'La variable $nombre parecería no existir o no tener el valor correcto');
+
+  $this->assertTrue(isset($nombre), 'La variable $nombre parecería no existir o no tener el valor correcto');
   
   $this->assertTrue(isset($apodo) && $apodo == "Manu", 'La variable $apodo parecería no existir o no tener el valor correcto');
   
