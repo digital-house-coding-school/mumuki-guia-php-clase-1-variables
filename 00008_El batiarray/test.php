@@ -11,7 +11,7 @@ public function testDescriptionExample(): void {
   
   
   $cinturon = array_pop($batman);
-  $estatura = array_pop($batman);
+  $altura = array_pop($batman);
   $peso = array_pop($batman);
   $apellido = array_pop($batman);
   $nombre = array_pop($batman);
@@ -28,7 +28,7 @@ public function testDescriptionExample(): void {
   
   $this->assertTrue($pesoCorrecto, 'El peso de Batman pareceria no ser correcto o no estar en la tercera posición...');
   
-  $alturaCorrecta = is_numeric($altura) && $altura == 1.8;
+  $alturaCorrecta = is_double($altura) && $altura == 1.8;
   
   
   
