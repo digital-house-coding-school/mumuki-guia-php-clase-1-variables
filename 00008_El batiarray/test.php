@@ -25,6 +25,10 @@ public function testDescriptionExample(): void {
   
   $alturaCorrecta = is_double($altura) && $altura == 1.8;
   
+  
+  
+  
+  
   $this->assertTrue($alturaCorrecta, 'La altura de Batman pareceria no ser correcta o no estar en la cuarta posición...");
   
   
