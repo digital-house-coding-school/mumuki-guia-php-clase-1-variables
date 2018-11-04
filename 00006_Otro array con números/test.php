@@ -20,5 +20,4 @@ public function testDescriptionExample(): void {
   $definidoVacio = strpos($sol, '[]');
   $condicionFinal = $definidoVacio !== false;
   
-  $this->assertTrue($condicionFinal, "Recorda que queremos que utilices la sintaxis de agregado. No dudes en ver la pista si no la recordas.");
 }
